@@ -218,14 +218,14 @@ make clean       # Remove generated files
  LINT: Phase 3b — Static Syntax Check
  [LINT:slang] Clean — 0 errors, 0 warnings
 ============================================
- SIM: Phase 5 — Running out/axi5_to_apb_tb.vvp
+ SIM: Phase 5 — Running out/my_alu_tb.vvp
  *** ALL TESTS PASSED *** (10/10)
 ============================================
  VERIFY: Phase 6 — VCD Waveform Auto-Verify
  VCD VERIFICATION: ALL 4 CHECKS PASSED
 ============================================
  SYN: Phase 7 — Synthesis → ics55 netlist
- Chip area for module '\axi5_to_apb': 26334.56
+ Chip area for module '\my_alu': 26334.56
   of which sequential: 5801.88 (22.03%)
 ============================================
  FULL FLOW + SYNTHESIS COMPLETE
