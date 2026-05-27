@@ -211,15 +211,6 @@ make clean       # Remove generated files
 
 ---
 
-## Testbench Convention
-
-- **Self-checking**: compare outputs to expected values, report pass/fail
-- **10 test scenarios**: single beat, INCR/WRAP/FIXED burst, back-to-back, error injection
-- **VCD dump**: `$dumpfile` + `$dumpvars` for waveform generation
-- **AI-friendly handshake**: source channels sample after `@(posedge clk)`; sink channels sample on the valid cycle before state advance
-
----
-
 ## Example Output
 
 ```
